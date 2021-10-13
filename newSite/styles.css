@@ -253,4 +253,6 @@ footer > div:first-child > *{
     width: 15%;
 }
 
-
+@media only screen and (max-width: 1000px){
+    
+}
