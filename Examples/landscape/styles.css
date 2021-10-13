@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background:#f5f7f8;
+    height: 100vh;
+}
+
+.card, .cardinfo{
+    height: 230px;
+}
+
+.card{
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 330px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardinfo{
+    position: absolute;
+    background:#f5f7f8;
+    top: 100%;
+    font-family: system-ui; 
+    box-sizing: border-box;
+    padding: 20px;
+    line-height: 1.4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.cardinfo:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2); 
+}
+
+.title{
+    width: 80%;
+    font-size: x-large;
+}
+
+.description{
+    padding: 10px 0;
+}
+
+.name{
+    color: rgb(119, 118, 118);
+    letter-spacing: .05em; 
+}

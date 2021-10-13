@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap [fonts.googleapis.com]'); 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background: #f5efd0;
+}
+
+.card{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.cardinfo{
+    background: ghostwhite;
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.cardinfo h2{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cardinfo p{
+    font-family: 'EB Garamond', serif;
+    margin: 20px 0;
+    text-align: center;
+}
+
+img{
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+
+button{
+    font-family: 'Farsan', cursive;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+button span{
+    display: inline-block;
+    padding: 5px 7px;
+    font-size: 1.1em;
+    color: white;
+}
+
+button span:first-child{
+    background: black;
+    border-radius: 5px 0 0 5px;
+}
+
+button span:last-child{
+    width: 70px;
+    background: rgb(94, 94, 231);
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+}

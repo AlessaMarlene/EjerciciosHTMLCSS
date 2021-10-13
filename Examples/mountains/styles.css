@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: #80afcd;
+}
+
+.card{
+    width: 23%;
+    height: 70%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("https://images.unsplash.com/photo-1574007557239-acf6863bc375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+    background-size: cover;
+    background-position: center center;
+}
+
+.icons{
+    position: absolute;
+    top: 72%;
+    left: 10%;
+    color: white;
+}
+
+.icons i{
+    width: 20px;
+    height: 20px;
+}
+
+.icons span{
+    font-size: small;
+    margin-right: 5px;
+}
+
+.cardinfo{
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    height: 20%;
+    background: ghostwhite;
+    box-sizing: border-box;
+}
+
+.cardinfo img{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.cardinfo div{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 65%;
+    float: right;
+}

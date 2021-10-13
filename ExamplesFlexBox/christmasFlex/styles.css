@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap [fonts.googleapis.com]'); 
+
+:root{
+    --color-fondo: #f5efd0;
+    --image: url("https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    --color-descripcion: ghostwhite;
+    --font-titulo: 'Bebas Neue', cursive;
+    --font-cuerpo: 'EB Garamond', serif;
+    --font-boton: 'Farsan', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background: var(--color-fondo);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.cardinfo{
+    width: 60%;
+    padding: 30px;
+    background: var(--color-descripcion);
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 40%;
+}
+
+.cardinfo h2{
+    font-family: var(--font-titulo);
+}
+
+.cardinfo p{
+    font-family: var(--font-cuerpo);
+    padding: 20px 0;
+    text-align: center;
+}
+
+button{
+    margin-top: 30px;
+    width: 50%;
+    align-self: center;
+    border: none;
+}
+
+.cardinfo button span{
+    font-family: var(--font-boton);
+    padding: 5px 7px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.cardinfo button span:first-child{
+    background: black;
+    border-radius: 5px 0 0 5px;
+}
+
+.cardinfo button span:last-child{
+    background: rgb(94, 94, 231);
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+}

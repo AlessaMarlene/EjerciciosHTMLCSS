@@ -1,0 +1,39 @@
+.punto_1 > p{
+    color: red;
+}
+
+.punto_2 p{
+    color: red;
+}
+
+.punto_3 > p:first-child{
+    color: red;
+}
+
+.punto_4 > p:last-child{
+    color: red;
+}
+
+.punto_5 ul > li:nth-child(3) ul li:nth-child(even){
+    color: red;
+}
+
+.punto_6 ul > li:nth-child(3) ul li:nth-child(odd){
+    color: red;
+}
+
+.punto_7 ul > li:last-child p{
+    color: red;
+}
+
+.punto_8{
+    color: red;
+}
+
+.punto_9 ul > li:nth-child(3) ul{
+    color: red;
+}
+
+main h1:last-child{
+    color: red;
+}

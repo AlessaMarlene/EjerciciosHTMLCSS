@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background: #262626;
+    height: 100vh;
+}
+
+#card{
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: ghostwhite;
+    font-family: 'Montserrat';
+}
+
+#card, img, #cardinfo{
+    height: 350px;
+}
+
+#cardinfo{
+    width: 400px;
+    float: left;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 250px;
+    position: absolute;
+    right: 3px;
+    top: 28px;
+}
+
+#sub{
+    padding: 3px;
+    background: cornflowerblue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+    font-size:small;
+}
+
+#title{
+    margin: 5px 0;
+    font-size: xx-large;
+    width: 200px;
+}
+
+#sub, #title{
+    font-weight: bold;
+}
+
+#description{
+    margin: 15px 0;
+}
+
+#buy{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 130px;
+    cursor: pointer;
+    background: ghostwhite;
+}
+
+#buy p{
+    padding: 7px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+#buy p:first-child{
+    border-right: 1px solid black;
+}

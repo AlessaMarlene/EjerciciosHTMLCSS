@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background: #FAFAFC; 
+}
+
+.card{
+    width: 25%;
+    height: 60%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 8px #d0d0d0; 
+    background: #FAFAFC;
+    background-image: url("https://images.unsplash.com/photo-1631714777290-d81bbb3ef248?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMjM5Nzk0NA&ixlib=rb-1.2.1&q=80&w=1600");
+    background-size: cover;
+    background-position: center center;
+}
+
+.cardinfo{
+    position: absolute;
+    font-family: "Poppins";
+    color: #4a4a4e;
+    background: #FAFAFC;
+    height: 50%;
+    top: 51%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cardinfo h2{
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+
+.cardinfo p, .cardinfo span{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.cardinfo p{
+    padding: 5px 0;
+}
+
+span{
+    background-color: #d3d1dd;
+    border-radius: 15px;
+    margin-right: 5px;
+    padding: 5px 5px;
+}
